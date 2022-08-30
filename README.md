@@ -1,2 +1,2 @@
 # fwd-class-portal
-Week 1 Assignment | Fall 2022 Web Front-end Dev
+All in-class work and assignments for Web Front-End Dev 2022
