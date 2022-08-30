@@ -1,0 +1,22 @@
+/* class selector */
+.my-class {
+    background-color: blue;
+}
+
+.some-other-class {
+    background-color: green;
+}
+/* ID selector */
+#page-title {
+    font-size: 10em;
+}
+
+#page-title:hover {
+    background-color: grey;
+}
+/* element selector */
+article {
+    display: block;
+    background-color: red;
+    padding: 50px 10px;
+}
