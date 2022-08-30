@@ -1,0 +1,15 @@
+#box {
+    /* centering when width is set */
+    margin: auto;
+    padding: 5rem;
+    min-width: 200px;
+    max-width: 600px;
+    width: 50%;
+    box-sizing: border-box;
+}
+/* use class for style to avoid repetition */
+
+.black-and-white {
+    background-color: black;
+    color: white;
+}
