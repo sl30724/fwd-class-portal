@@ -20,7 +20,7 @@ Each card would lead to its own project page with a 1-2 paragraph introduction a
 - Custom layout
 
 # User Interaction Flow
-See this [Figma file]().
+![fwd-userflow](https://user-images.githubusercontent.com/77323548/187710582-7db0a49d-3b4e-4a83-bbe7-b81b56317db1.png)
 
 # Design System
 See this [Figma file]().
