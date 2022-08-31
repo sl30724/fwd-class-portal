@@ -1,5 +1,5 @@
 # Concept
-This class portal will present the design journal and the code of my projects, along with links to my linkedin profile and personal portfolio for career purposes.
+This class portal will present the design journal and the code of my projects, along with links to my linkedin profile and personal portfolio on main navigation for career purposes.
 Each project would display as cards.
 Each card would lead to its own project page with a 1-2 paragraph introduction and the finished project, with links to its design journal and code hosted on github.
 
