@@ -1,6 +1,7 @@
 # Concept
 This class portal will present the design journal and the code of my projects, along with links to my linkedin profile and personal portfolio for career purposes.
-The design journal and the code should be categorized by project.
+Each project would display as cards.
+Each card would lead to its own project page with a 1-2 paragraph introduction and the finished project, with links to its design journal and code hosted on github.
 
 # Theme
 **The style of the portal should have the following properties:**
@@ -11,7 +12,7 @@ The design journal and the code should be categorized by project.
 
 **To achieve these properties, this portal will at least have:**
 - Some animations or graphic elements
-- Grid or card view of all projects with single-line introduction
+- Card view of all projects with single-line introduction
 - Modern, formal typography
 - Bold, high-contrst color palette
 - Collapsible navigation menu
