@@ -22,8 +22,12 @@ Each card would lead to its own project page with a 1-2 paragraph introduction a
 # User Interaction Flow
 ![fwd-userflow](https://user-images.githubusercontent.com/77323548/187710582-7db0a49d-3b4e-4a83-bbe7-b81b56317db1.png)
 
-# Design System
-See this [Figma file]().
+# Design System (subject to change)
+![fwd-deisgnsystem](https://user-images.githubusercontent.com/77323548/187823568-3cbfea70-d27d-4996-b465-d8cdf5622279.png)
+
+Or view on [Figma](https://www.figma.com/proto/K9HdfG1294xJ448wJaUJcT/FWD-Portal?page-id=0%3A1&node-id=1%3A2&viewport=414%2C533%2C0.18&scaling=scale-down).
 
 # Wireframe
-See this [Figma file]().
+
+This minimal wireframe focuses on the information structure on three different screen sizes: desktop, tablet, and mobile.
+View on [Figma](https://www.figma.com/proto/K9HdfG1294xJ448wJaUJcT/FWD-Portal?page-id=8%3A2&node-id=13%3A109&viewport=433%2C463%2C0.15&scaling=contain).
