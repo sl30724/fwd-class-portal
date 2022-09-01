@@ -12,10 +12,10 @@ Each card would lead to its own project page with a 1-2 paragraph introduction a
 
 **To achieve these properties, this portal will at least have:**
 - Some animations or graphic elements
-- Card view of all projects with single-line introduction
+- Card view of all projects
 - Modern, formal typography
-- Bold, high-contrst color palette
-- Collapsible navigation menu
+- Color-blind friendly, high-contrst color palette
+- Icons with links to portfolio, email, and linkedin
 - Responsive images
 - Custom layout
 
