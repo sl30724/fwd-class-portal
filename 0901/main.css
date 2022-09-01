@@ -1,0 +1,55 @@
+body {
+    /* this is to remove the default padding and margin of the browser*/
+    padding: 0;
+    margin: 0;
+}
+
+/* flexbox is a great way for responsive to different screen sizes */
+
+.flex-container { /*container class level*/
+    display: flex;
+    flex-flow: row wrap; /* this equals flex-direction: row; flex-wrap: wrap;*/
+    justify-content: center; /* there's justify-items, but it's a different thing*/
+    align-items: center;
+}
+
+.flex-item { /* item class level */
+    color: white;
+    flex-grow: 1;
+    flex-basis: 10rem;
+}
+
+#first-child { /* item ID level */
+    background-color: blue;
+    flex-grow: 2;
+}
+
+#second-child {
+    background-color: red;
+    flex-grow: 0;
+}
+
+#third-child {
+    background-color: yellow;
+}
+
+#fourth-child {
+    background-color: green;
+}
+
+/* stay with flexbox to avoid having to use @media query to make your site responsive*/
+.grid-container {
+    display: grid;
+    grid-template-rows: 200px 200px 100px;
+    grid-template-columns: 100px 100px 200px;
+}
+
+#first-grid-item{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+#second-grid-item{
+    grid-row: 2 / 4;
+    grid-column: 1 / 4;
+}
