@@ -29,5 +29,5 @@ Or view on [Figma](https://www.figma.com/proto/K9HdfG1294xJ448wJaUJcT/FWD-Portal
 
 # Wireframe
 
-This minimal wireframe focuses on the information structure on three different screen sizes: desktop, tablet, and mobile.
+This minimal wireframe focuses on the information structure, padding, and spacing on three different screen sizes: desktop, tablet, and mobile.
 View on [Figma](https://www.figma.com/proto/K9HdfG1294xJ448wJaUJcT/FWD-Portal?page-id=8%3A2&node-id=13%3A109&viewport=433%2C463%2C0.15&scaling=contain).
