@@ -1,4 +1,16 @@
-.btn { 
+.info {
+    margin: auto;
+    width: 40%;
+    text-align: center;
+}
+
+.playground {
+    margin: auto;
+    text-align: center;
+}
+
+.btn {
+    text-align: center;
     color: black;
     background-color: lightgray;
 }
