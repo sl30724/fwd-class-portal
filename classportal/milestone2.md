@@ -1,0 +1,2 @@
+# Goal
+Create the website using the design system and layout outlined in this [Figma prototype](https://www.figma.com/proto/K9HdfG1294xJ448wJaUJcT/FWD-Portal?page-id=8%3A2&node-id=13%3A109&viewport=433%2C463%2C0.15&scaling=contain).
