@@ -1,5 +1,5 @@
 h1 {
-    font-family: 'Work Sans';
+    font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 96px;
@@ -8,6 +8,7 @@ h1 {
 }
 
 h2 {
+    font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 64px;
@@ -16,6 +17,7 @@ h2 {
 }
 
 h3 {
+    font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 48px;
@@ -23,6 +25,7 @@ h3 {
 }
 
 h4 {
+    font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 34px;
@@ -31,6 +34,7 @@ h4 {
 }
 
 h5 {
+    font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -45,7 +49,7 @@ h6 {
 }
 
 p {
-    font-family: 'Merriweather';
+    font-family: 'Merriweather', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -55,7 +59,7 @@ p {
 }
 
 .small-body {
-    font-family: 'Merriweather';
+    font-family: 'Merriweather', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -65,7 +69,7 @@ p {
 }
 
 .caption {
-    font-family: 'Merriweather';
+    font-family: 'Merriweather', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -116,7 +120,14 @@ header {
     margin-bottom: 0;
     padding: 30px;
     gap: 12px;
+    /* background: -webkit-linear-gradient(left, #F6F7EB, #E94F37); */
 }
+
+/* header h1 {
+    background: -webkit-linear-gradient(right, #F6F7EB, #E94F37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
 
 main {
     display: flex;
@@ -136,10 +147,9 @@ main {
     padding: 30px;
     gap: 12px;
     position: relative;
-    /* max-width: min-content; */
-    background-color: #F6F7EB;
     box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    background-color: #F6F7EB;
 }
 
 img {
@@ -150,4 +160,3 @@ footer {
     padding: 30px;
     text-align: center;
 }
-
