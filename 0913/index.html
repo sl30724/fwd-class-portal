@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title> HTML Forms</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="main.css">
+    <!--putting defer or tells the browser to wait until all the content has been loaded-->
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <!-- ignore action for now -->
+    <form>
+        <!-- using <div> works too, <fieldset> comes with preset format -->
+        <fieldset>
+            <label for="first-text-input">Enter in some text!</label>
+            <!-- input is a self-closing tab, it can either be <input type="text"> or <inpute type="text" />.
+                The second just serves as a reminder that it's a self-closing tab. -->
+            <!-- input id connects the input bar with the label, which allows users to click on the label and activate the input bar -->
+            <input type="text" id="first-text-input">
+        </fieldset>
+        <fieldset>
+            <label for="email-input">Email</label>
+            <input type="email" id="email-input">
+        </fieldset>
+        <fieldset>
+            <label for="color-input">Choose a color</label>
+            <input type="color" id="color-input">
+        </fieldset>
+
+        <!-- checkbox group -->
+        <fieldset>
+            <legend>Checkbox Group</legend>
+            <input type="checkbox" id="check-1" name="checkbox-group">
+            <label for="check-1">Option 1</label>
+            <!-- even though label is put after input, screenreader will still read the label first because it's linked together by id and for -->
+            <input type="checkbox" id="check-2" name="checkbox-group">
+            <label for="check-2">Option 2</label>
+            <input type="checkbox" id="check-3" name="checkbox-group">
+            <label for="check-3">Option 3</label>
+            <input type="checkbox" id="check-4" name="checkbox-group">
+            <label for="check-4">Option 4</label>
+        </fieldset>
+
+        <!-- radio group -->
+        <fieldset>
+            <legend>Favorite Icecream Flavor</legend>
+            <input type="radio" id="vanilla" name="icecream">
+            <label for="vanilla">vanilla</label>
+            <input type="radio" id="chocolate" name="icecream">
+            <label for="chocolate">chocolate</label>
+            <input type="radio" id="caramel" name="icecream">
+            <label for="caramel">caramel</label>
+            <input type="radio" id="strawberry" name="icecream">
+            <label for="strawberry">strawberry</label>
+        </fieldset>
+        <!--    -->
+        <button type="button" id="my-button">button text</button>
+    </form>
+</body>

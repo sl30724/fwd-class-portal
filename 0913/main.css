@@ -1,0 +1,4 @@
+/* css selector on input fields */
+input [type="email"] {
+    width: 100%;
+}
