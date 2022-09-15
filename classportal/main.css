@@ -84,8 +84,39 @@ a {
 }
 
 .text-link {
+    padding-bottom: 4px;
+    position: relative;
     text-decoration: none;
-    color: #3185FC;
+}
+
+
+.text-link::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    height: 3px;
+    border-radius: 2px;
+    background: linear-gradient(to right, #BDE0FE, #A2D2FF);
+}
+
+
+.pink-gradient {
+    padding-bottom: 4px;
+    position: relative;
+    text-decoration: none;
+}
+
+.pink-gradient::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    height: 5px;
+    border-radius: 2px;
+    background: linear-gradient(to right, #CDB4DB, #FFAFCC);
 }
 
 
@@ -93,10 +124,12 @@ body {
     /* this is to remove the default padding and margin of the browser*/
     padding: 0;
     margin: 0;
+    background-color: white;
 }
 
 nav {
     overflow: hidden;
+    margin: 0;
     width: 100%;
     background-color: white;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -108,7 +141,8 @@ nav ul {
     align-items: center;
     justify-content: flex-end;
     list-style-type: none;
-    padding-inline: 30px;
+    margin: 0;
+    padding: 30px;
     gap: 20px;
 }
 
@@ -119,7 +153,7 @@ header {
     align-items: flex-start;
     margin-bottom: 0;
     padding: 30px;
-    gap: 12px;
+    gap: 30px;
     /* background: -webkit-linear-gradient(left, #F6F7EB, #E94F37); */
 }
 
@@ -149,7 +183,7 @@ main {
     position: relative;
     box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    background-color: #F6F7EB;
+    background-color: white;
 }
 
 img {
