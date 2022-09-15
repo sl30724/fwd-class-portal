@@ -1,7 +1,7 @@
 const button = document.querySelector("#my-button");
+const firstTextInput = document.querySelector("#first-text-input");
 button.addEventListener("click", () => {
     // process form here
-    const firstTextInput = document.querySelector("#first-text-input");
     console.log(firstTextInput.value);
 
     const colorInput = document.querySelector("#color-input");
@@ -10,3 +10,10 @@ button.addEventListener("click", () => {
     // when using local server, make sure refresh by pressing down shift at the same time
 })
 
+firstTextInput,addEventListener("change", () => {
+    console.log("change detected!");
+})
+
+//see type of objects or elements this way!
+console.log(typeof firstTextInput);
+console.log(typeof 2);
