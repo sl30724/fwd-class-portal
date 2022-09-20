@@ -2,7 +2,6 @@ const submitBtn = document.getElementById("submit-button");
 const result = document.getElementById("result");
 const result1 = document.getElementById("result-1");
 const form = document.getElementById("bubbletea");
-let toppingList;
 
 form.addEventListener("submit", (event) => {
     event.preventDefault();
