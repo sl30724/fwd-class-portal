@@ -2,33 +2,42 @@ const submitBtn = document.getElementById("submit-button");
 const result = document.getElementById("result");
 const result1 = document.getElementById("result-1");
 const form = document.getElementById("bubbletea");
+let toppingList = [];
 
 form.addEventListener("submit", (event) => {
     event.preventDefault();
 })
 
+form.addEventListener("reset", () => {
+    location.reload();
+})
+
 form.addEventListener("submit", () => {
     let orderName = document.getElementById("order-name");
-    console.log(orderName.value)
+    // console.log(orderName.value)
     let tea = document.querySelector('input[name="tea"]:checked');
-    console.log(tea.value);
+    // console.log(tea.value);
     let milk = document.querySelector('input[name="milk"]:checked');
-    console.log(milk.value);
-
-    result.innerText = `You ordered a ${milk.value} ${tea.value} with `;
-
+    // console.log(milk.value);
     let toppings = document.getElementsByName("toppings");
-    for (let topping of toppings) {
-        if (topping.checked) {
-            console.log()
-            result.append(topping.value + " ");
+
+    if (orderName != null && tea != null && milk != null) {
+        result.innerText = `Hi ${orderName.value}, you ordered a ${milk.value} ${tea.value} with `;
+        
+        for (let topping of toppings) {
+            if (topping.checked) {
+                result.append(topping.value + " ");
+                console.log(topping.value);
+                toppingList.push(topping);
+                console.log(toppingList);
+            }
         }
+         if (toppingList = []) {
+            result.append("nothing");
+         }
+    } else {
+        result.innerText = "Oops! You haven't finished your order. Make sure you've answered all questions.";
     }
-    // let milk = document.querySelector('input[name="milk"]:checked');
-    // alert(milk);
-    // let toppings = document.querySelector('input[name="toppings"]:checked');
-    // alert(toppings);
-    // result.innerText = "You completed your order!";
 })
 
 // submitBtn.addEventListener("clicked", () => {
