@@ -1,5 +1,5 @@
 /** 
-* this catched an error but can't hndle it
+* this catched an error but can't handle it
 * And this style of commenting is good!
 */
 
