@@ -24,18 +24,19 @@ And since reading essays and studies might not be everyone's cup of tea, I want 
 # Responsiveness
 Besides utilizing dynamic blocks, here are some other resources I found that might help make my website responsive to different screen sizes.
 - [Responsive GSAP](https://www.youtube.com/watch?v=mKLqoGo7M3I)
-- [Responsive charts with d3.js](https://d3-graph-gallery.com/graph/custom_responsive.html)
-- [A simple way to make D3.js charts responsive](https://medium.com/@louisemoxy/a-simple-way-to-make-d3-js-charts-svgs-responsive-7afb04bc2e4b)
+- [https://r105.threejsfundamentals.org/threejs/lessons/threejs-responsive.html](https://r105.threejsfundamentals.org/threejs/lessons/threejs-responsive.html)
+- [Making Our Scenes Responsive (and also Dealing with Jaggies)](https://discoverthreejs.com/book/first-steps/responsive-design/)
 
 # Wireframe
 See (this Figma)[https://www.figma.com/file/XCnXc4sXzDBG3rcI3DzmhE/Web-Front-End-Project1?node-id=1%3A2] file for lo-fi prototype.
 
-Design inspirations:
+### Design inspirations:
 - https://codepen.io/ste-vg/pen/GRooLza
+- 
 
 # Goals
 ### MVP
-- Using p5.js or d3.js to visualiza data in an interesting way.
+- Using p5.js or three.js to visualiza data in an interesting way.
 - Using Typed.js to create text animation.
 - Using GSAP for cool scrolling effects.
 
