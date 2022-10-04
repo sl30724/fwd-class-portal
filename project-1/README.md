@@ -29,6 +29,7 @@ Besides utilizing dynamic blocks, here are some other resources I found that mig
 
 # Wireframe
 See (this Figma)[https://www.figma.com/file/XCnXc4sXzDBG3rcI3DzmhE/Web-Front-End-Project1?node-id=1%3A2] file for lo-fi prototype.
+
 Design inspirations:
 - https://codepen.io/ste-vg/pen/GRooLza
 
