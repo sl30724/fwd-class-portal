@@ -13,7 +13,7 @@ And since reading essays and studies might not be everyone's cup of tea, I want 
 # Use of Javascript
 - Greensock(GSAP) for scrolling animation.
 - Typed.js for text animation.
-- p5.js or d3.js for data visualization.
+- p5.js or three.js for data visualization.
 
 # Content & Information Resource
 - Casey K., Novick K., Lourenco S.F. (2021). [Sixty years of gender representation in children’s books: Conditions associated with overrepresentation of male versus female protagonists. PLOS ONE 16(12): e0260566.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0260566#pone-0260566-g005)
@@ -24,7 +24,7 @@ And since reading essays and studies might not be everyone's cup of tea, I want 
 # Responsiveness
 Besides utilizing dynamic blocks, here are some other resources I found that might help make my website responsive to different screen sizes.
 - [Responsive GSAP](https://www.youtube.com/watch?v=mKLqoGo7M3I)
-- [https://r105.threejsfundamentals.org/threejs/lessons/threejs-responsive.html](https://r105.threejsfundamentals.org/threejs/lessons/threejs-responsive.html)
+- [Three.js Responsive Design](https://r105.threejsfundamentals.org/threejs/lessons/threejs-responsive.html)
 - [Making Our Scenes Responsive (and also Dealing with Jaggies)](https://discoverthreejs.com/book/first-steps/responsive-design/)
 
 # Wireframe
