@@ -1,0 +1,23 @@
+body {
+    /* this is to remove the default padding and margin of the browser*/
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* text-align: center;  */
+    /* align-content: center; */
+    align-items: center;
+}
+
+button {
+    align-content: center;
+    width: 20%;
+}
