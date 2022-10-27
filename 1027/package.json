@@ -1,0 +1,15 @@
+{
+  "name": "1027",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/main.js",
+  "scripts": {
+    "serve": "npx http-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "parcel": "^2.7.0"
+  }
+}
