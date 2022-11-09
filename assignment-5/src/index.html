@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="main.css">
+    <script type="module" src="main.js"></script>
+    <title>Radio Player</title>
+    <link rel="icon" href="../public/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <h1 class="header">Scroll to construct the radio</h1>
+    <section class="radio">
+        <img src="../public/radio-1.png" class="top piece" alt="top">
+        <img src="../public/radio-2.png" class="center piece" alt="center">
+        <img src="../public/radio-3.png" class="bottom piece" alt="bottom">
+    </section>
+    <div class="footer">
+        <button type="button" data-playing="false" role="switch" id="play">
+            Play Music
+        </button>
+        <button type="button" id="restart">
+            Restart
+        </button>
+        <h4>Nice job! Now you can click the button above to play music :)</h4>
+    </div>
+    <audio src="../public/music.mp3"></audio>
+</body>
+
+</html>
