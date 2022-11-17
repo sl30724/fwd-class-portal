@@ -1,0 +1,21 @@
+# To-Do List Mock-up
+[View on Figma](https://www.figma.com/proto/htxyH26DiLpcn4huIdIvBp/To-Do-List?page-id=0%3A1&node-id=1%3A52&viewport=445%2C401%2C0.85&scaling=min-zoom)
+
+# List of components
+![List of components](https://github.com/sl30724/fwd-class-portal/blob/main/Screen%20Shot%202022-11-16%20at%207.55.06%20PM.png)
+- ToDoList
+  - Overview
+    - Overview / TitleDate
+    - Overview / Summary
+  - Tasks
+    - Tasks / TaskCard
+
+# States
+- State: whether an item is checked(marked as done).
+- Components that render something based on this state: Overview / Summary and Tasks / TaskCard
+- Component owner: ToDoList
+
+# Methods
+Add an instance property `this.state = {checked: false}` to ToDoList's `constructor` to reflect the initial state.
+Then, pass `checked` to Summary and TaskCard as a prop.
+Finally, use the prop to change the order and color of Taskcard and set the values of number of tasks done and undone in Summary.
